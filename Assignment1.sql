@@ -24,11 +24,11 @@ INSERT INTO studios VALUES("20th Century Fox", "Los Angeles", "CA", 1935);
 
 # Create a second table
 CREATE TABLE movies (
-		title VARCHAR(36),
+	title VARCHAR(36),
         year INT(4),
         five_star_rating INT(5),
         length INT(3),
-		studio VARCHAR(16)
+	studio VARCHAR(16)
 );
 # Movies from the teacher's list
 INSERT INTO movies VALUES("Star Wars: The Empire Strikes back", 1980, 5, 124, "20th Century Fox");
